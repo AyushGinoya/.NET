@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Program\\.NET\\Calendar Control\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E2A832-E0A8-43E2-A77D-5FFA2635593E}|Calendar Control.csproj|F:\\Program\\.NET\\Calendar Control\\cal1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2E2A832-E0A8-43E2-A77D-5FFA2635593E}|Calendar Control.csproj|solutionrelative:cal1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E2A832-E0A8-43E2-A77D-5FFA2635593E}|Calendar Control.csproj|f:\\program\\.net\\calendar control\\cal2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E2A832-E0A8-43E2-A77D-5FFA2635593E}|Calendar Control.csproj|solutionrelative:cal2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E2A832-E0A8-43E2-A77D-5FFA2635593E}|Calendar Control.csproj|F:\\Program\\.NET\\Calendar Control\\cal1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E2A832-E0A8-43E2-A77D-5FFA2635593E}|Calendar Control.csproj|solutionrelative:cal1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E2A832-E0A8-43E2-A77D-5FFA2635593E}|Calendar Control.csproj|F:\\Program\\.NET\\Calendar Control\\cal2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F2E2A832-E0A8-43E2-A77D-5FFA2635593E}|Calendar Control.csproj|solutionrelative:cal2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cal1.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\Calendar Control\\Cal1.aspx",
+              "RelativeDocumentMoniker": "Cal1.aspx",
+              "ToolTip": "F:\\Program\\.NET\\Calendar Control\\Cal1.aspx",
+              "RelativeToolTip": "Cal1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-08T04:53:06.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cal2.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\Calendar Control\\Cal2.aspx.cs",
+              "RelativeDocumentMoniker": "Cal2.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\Calendar Control\\Cal2.aspx.cs",
+              "RelativeToolTip": "Cal2.aspx.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwGkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:29:11.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cal2.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\Calendar Control\\Cal2.aspx",
+              "RelativeDocumentMoniker": "Cal2.aspx",
+              "ToolTip": "F:\\Program\\.NET\\Calendar Control\\Cal2.aspx",
+              "RelativeToolTip": "Cal2.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-08T05:28:04.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cal1.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\Calendar Control\\Cal1.aspx.cs",
+              "RelativeDocumentMoniker": "Cal1.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\Calendar Control\\Cal1.aspx.cs",
+              "RelativeToolTip": "Cal1.aspx.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswEAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T04:54:44.973Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

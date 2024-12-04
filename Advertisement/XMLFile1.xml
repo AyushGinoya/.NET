@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>RatriB4Navratri\IMG-20240922-WA0029.jpg</ImageUrl>
+		<AlternateText> Navratri......</AlternateText>
+		<Impressions>10</Impressions>
+		<Height>400</Height>
+		<Width>400</Width>
+		<Keyword> Navratri</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>RatriB4Navratri\IMG-20240925-WA0001.jpg</ImageUrl>
+		<AlternateText> Navratri......</AlternateText>
+		<Impressions>10</Impressions>
+		<Height>400</Height>
+		<Width>400</Width>
+		<Keyword> Navratri</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>RatriB4Navratri\IMG_5756.jpeg</ImageUrl>
+		<AlternateText> Navratri......</AlternateText>
+		<Impressions>10</Impressions>
+		<Height>400</Height>
+		<Width>400</Width>
+		<Keyword> Navratri</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>Trip\FullSizeRender-57.jpg</ImageUrl>
+		<AlternateText> Trip......</AlternateText>
+		<Impressions>10</Impressions>
+		<Height>400</Height>
+		<Width>400</Width>
+		<Keyword> Trip</Keyword>
+	</Ad>
+</Advertisements>

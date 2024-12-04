@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Program\\.NET\\PaperSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|F:\\Program\\.NET\\PaperSolution\\orq3-b.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|solutionrelative:orq3-b.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|F:\\Program\\.NET\\PaperSolution\\orq3-b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|solutionrelative:orq3-b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|F:\\Program\\.NET\\PaperSolution\\q2-c.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|solutionrelative:q2-c.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|f:\\program\\.net\\papersolution\\q3-b.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|solutionrelative:q3-b.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|F:\\Program\\.NET\\PaperSolution\\q3-b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|solutionrelative:q3-b.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|F:\\Program\\.NET\\PaperSolution\\q2-c.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8C5DF1-945C-4814-A890-41AE3980AA39}|PaperSolution.csproj|solutionrelative:q2-c.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "q3-b.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\PaperSolution\\q3-b.aspx.cs",
+              "RelativeDocumentMoniker": "q3-b.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\PaperSolution\\q3-b.aspx.cs",
+              "RelativeToolTip": "q3-b.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:28:53.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "q3-b.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\PaperSolution\\q3-b.aspx",
+              "RelativeDocumentMoniker": "q3-b.aspx",
+              "ToolTip": "F:\\Program\\.NET\\PaperSolution\\q3-b.aspx",
+              "RelativeToolTip": "q3-b.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-06T09:23:12.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "orq3-b.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\PaperSolution\\orq3-b.aspx.cs",
+              "RelativeDocumentMoniker": "orq3-b.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\PaperSolution\\orq3-b.aspx.cs",
+              "RelativeToolTip": "orq3-b.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAcwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:51:01.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "orq3-b.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\PaperSolution\\orq3-b.aspx",
+              "RelativeDocumentMoniker": "orq3-b.aspx",
+              "ToolTip": "F:\\Program\\.NET\\PaperSolution\\orq3-b.aspx",
+              "RelativeToolTip": "orq3-b.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-06T08:41:59.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "q2-c.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\PaperSolution\\q2-c.aspx.cs",
+              "RelativeDocumentMoniker": "q2-c.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\PaperSolution\\q2-c.aspx.cs",
+              "RelativeToolTip": "q2-c.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:26:24.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "q2-c.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\PaperSolution\\q2-c.aspx",
+              "RelativeDocumentMoniker": "q2-c.aspx",
+              "ToolTip": "F:\\Program\\.NET\\PaperSolution\\q2-c.aspx",
+              "RelativeToolTip": "q2-c.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-06T08:11:00.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MasterPage.MasterDemo.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+    .header, .footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .container {
+        display: flex;
+    }
+    .sidebar {
+        width: 100%;
+        height: 10%;
+        padding: 10px;
+        background-color: #e2e2e2;
+    }
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+    <h1>Website Header</h1>
+</div>
+
+<div class="container">
+    <div class="sidebar">
+        <asp:RadioButtonList ID="SubjectRadioButtons" runat="server" AutoPostBack="True" OnSelectedIndexChanged="SubjectRadioButtons_SelectedIndexChanged">
+            <asp:ListItem Text="IT" Value="IT"></asp:ListItem>
+            <asp:ListItem Text="CR" Value="CR"></asp:ListItem>
+            <asp:ListItem Text="EC" Value="EC"></asp:ListItem>
+        </asp:RadioButtonList>
+    </div>
+
+    <div class="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Website Footer</p>
+</div>
+    </form>
+</body>
+</html>

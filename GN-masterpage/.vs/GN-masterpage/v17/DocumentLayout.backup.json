@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Program\\.NET\\GN-masterpage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateDelete.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminPanel\\State\\StateDelete.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateAddEdit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminPanel\\State\\StateAddEdit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateAddEdit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminPanel\\State\\StateAddEdit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateList.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminPanel\\State\\StateList.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StateList.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateList.aspx",
+              "RelativeDocumentMoniker": "AdminPanel\\State\\StateList.aspx",
+              "ToolTip": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateList.aspx",
+              "RelativeToolTip": "AdminPanel\\State\\StateList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-02T16:35:55.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StateDelete.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateDelete.aspx",
+              "RelativeDocumentMoniker": "AdminPanel\\State\\StateDelete.aspx",
+              "ToolTip": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateDelete.aspx",
+              "RelativeToolTip": "AdminPanel\\State\\StateDelete.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-02T16:35:02.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StateAddEdit.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateAddEdit.aspx.cs",
+              "RelativeDocumentMoniker": "AdminPanel\\State\\StateAddEdit.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateAddEdit.aspx.cs",
+              "RelativeToolTip": "AdminPanel\\State\\StateAddEdit.aspx.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAAJ0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:16:51.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StateAddEdit.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateAddEdit.aspx",
+              "RelativeDocumentMoniker": "AdminPanel\\State\\StateAddEdit.aspx",
+              "ToolTip": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\State\\StateAddEdit.aspx",
+              "RelativeToolTip": "AdminPanel\\State\\StateAddEdit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-02T13:16:21.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

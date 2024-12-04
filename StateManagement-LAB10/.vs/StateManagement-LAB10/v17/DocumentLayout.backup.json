@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Program\\.NET\\StateManagement-LAB10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|f:\\program\\.net\\statemanagement-lab10\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|solutionrelative:webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|F:\\Program\\.NET\\StateManagement-LAB10\\edit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|solutionrelative:edit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|F:\\Program\\.NET\\StateManagement-LAB10\\changepwd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|solutionrelative:changepwd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|F:\\Program\\.NET\\StateManagement-LAB10\\welcome.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|solutionrelative:welcome.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|F:\\Program\\.NET\\StateManagement-LAB10\\edit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|solutionrelative:edit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|F:\\Program\\.NET\\StateManagement-LAB10\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|solutionrelative:webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|F:\\Program\\.NET\\StateManagement-LAB10\\changepwd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|solutionrelative:changepwd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|F:\\Program\\.NET\\StateManagement-LAB10\\welcome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FFCCF3BD-3B1A-4A15-940C-035BD977A09F}|StateManagement-LAB10.csproj|solutionrelative:welcome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "welcome.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\StateManagement-LAB10\\welcome.aspx.cs",
+              "RelativeDocumentMoniker": "welcome.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\StateManagement-LAB10\\welcome.aspx.cs",
+              "RelativeToolTip": "welcome.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:52:26.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\StateManagement-LAB10\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "WebForm1.aspx",
+              "ToolTip": "F:\\Program\\.NET\\StateManagement-LAB10\\WebForm1.aspx",
+              "RelativeToolTip": "WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-17T08:37:36.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "changepwd.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\StateManagement-LAB10\\changepwd.aspx.cs",
+              "RelativeDocumentMoniker": "changepwd.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\StateManagement-LAB10\\changepwd.aspx.cs",
+              "RelativeToolTip": "changepwd.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:41:06.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "edit.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\StateManagement-LAB10\\edit.aspx",
+              "RelativeDocumentMoniker": "edit.aspx",
+              "ToolTip": "F:\\Program\\.NET\\StateManagement-LAB10\\edit.aspx",
+              "RelativeToolTip": "edit.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-17T09:02:40.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "edit.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\StateManagement-LAB10\\edit.aspx.cs",
+              "RelativeDocumentMoniker": "edit.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\StateManagement-LAB10\\edit.aspx.cs",
+              "RelativeToolTip": "edit.aspx.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:40:54.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "F:\\Program\\.NET\\StateManagement-LAB10\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm1.aspx.cs",
+              "ToolTip": "F:\\Program\\.NET\\StateManagement-LAB10\\WebForm1.aspx.cs",
+              "RelativeToolTip": "WebForm1.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vw0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:39:58.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "changepwd.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\StateManagement-LAB10\\changepwd.aspx",
+              "RelativeDocumentMoniker": "changepwd.aspx",
+              "ToolTip": "F:\\Program\\.NET\\StateManagement-LAB10\\changepwd.aspx",
+              "RelativeToolTip": "changepwd.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-17T09:39:51.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "welcome.aspx",
+              "DocumentMoniker": "F:\\Program\\.NET\\StateManagement-LAB10\\welcome.aspx",
+              "RelativeDocumentMoniker": "welcome.aspx",
+              "ToolTip": "F:\\Program\\.NET\\StateManagement-LAB10\\welcome.aspx",
+              "RelativeToolTip": "welcome.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-17T08:49:04.589Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
