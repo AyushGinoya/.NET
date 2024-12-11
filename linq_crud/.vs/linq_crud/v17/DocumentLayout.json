@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\linq_crud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|D:\\.NET\\linq_crud\\joins.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:joins.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|d:\\.net\\linq_crud\\app_code\\employeedb.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:app_code\\employeedb.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|D:\\.NET\\linq_crud\\crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|D:\\.NET\\linq_crud\\listop.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:listop.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|D:\\.NET\\linq_crud\\listop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:listop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|D:\\.NET\\linq_crud\\joins.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:joins.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|D:\\.NET\\linq_crud\\crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|D:\\.NET\\linq_crud\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|D:\\.NET\\linq_crud\\app_code\\studentdb.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{55A3AEB2-D140-4220-AEF8-6858D8718A2D}|D:\\.NET\\linq_crud|solutionrelative:app_code\\studentdb.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "crud.aspx",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\crud.aspx",
+              "RelativeDocumentMoniker": "crud.aspx",
+              "ToolTip": "D:\\.NET\\linq_crud\\crud.aspx",
+              "RelativeToolTip": "crud.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-10T09:29:49.185Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Listop.aspx.cs",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\Listop.aspx.cs",
+              "RelativeDocumentMoniker": "Listop.aspx.cs",
+              "ToolTip": "D:\\.NET\\linq_crud\\Listop.aspx.cs",
+              "RelativeToolTip": "Listop.aspx.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T12:18:29.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Listop.aspx",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\Listop.aspx",
+              "RelativeDocumentMoniker": "Listop.aspx",
+              "ToolTip": "D:\\.NET\\linq_crud\\Listop.aspx",
+              "RelativeToolTip": "Listop.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-10T12:18:21.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\.NET\\linq_crud\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-10T10:40:22.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "joins.aspx.cs",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\joins.aspx.cs",
+              "RelativeDocumentMoniker": "joins.aspx.cs",
+              "ToolTip": "D:\\.NET\\linq_crud\\joins.aspx.cs",
+              "RelativeToolTip": "joins.aspx.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAqwEkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T10:34:29.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "joins.aspx",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\joins.aspx",
+              "RelativeDocumentMoniker": "joins.aspx",
+              "ToolTip": "D:\\.NET\\linq_crud\\joins.aspx",
+              "RelativeToolTip": "joins.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-10T10:30:12.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDB.dbml",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\App_Code\\EmployeeDB.dbml",
+              "RelativeDocumentMoniker": "App_Code\\EmployeeDB.dbml",
+              "ToolTip": "D:\\.NET\\linq_crud\\App_Code\\EmployeeDB.dbml",
+              "RelativeToolTip": "App_Code\\EmployeeDB.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2024-12-10T10:27:59.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "crud.aspx.cs",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\crud.aspx.cs",
+              "RelativeDocumentMoniker": "crud.aspx.cs",
+              "ToolTip": "D:\\.NET\\linq_crud\\crud.aspx.cs",
+              "RelativeToolTip": "crud.aspx.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:35:03.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentDB.dbml",
+              "DocumentMoniker": "D:\\.NET\\linq_crud\\App_Code\\StudentDB.dbml",
+              "RelativeDocumentMoniker": "App_Code\\StudentDB.dbml",
+              "ToolTip": "D:\\.NET\\linq_crud\\App_Code\\StudentDB.dbml",
+              "RelativeToolTip": "App_Code\\StudentDB.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2024-12-10T09:30:46.932Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
