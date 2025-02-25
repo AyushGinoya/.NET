@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Test" Class="EmployeeDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.EMPLOYEE" Member="EMPLOYEEs">
+    <Type Name="EMPLOYEE">
+      <Column Name="EMPLOYEEID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FIRSTNAME" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="LASTNAME" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DOB" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="GENDER" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="HIREDATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DEPARTMENTID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SALARY" Type="System.Decimal" DbType="Decimal(10,2) NOT NULL" CanBeNull="false" />
+      <Association Name="EMPLOYEE_DEPARTMENT" Member="DEPARTMENTs" ThisKey="EMPLOYEEID" OtherKey="MANAGERID" Type="DEPARTMENT" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DEPARTMENTS" Member="DEPARTMENTs">
+    <Type Name="DEPARTMENT">
+      <Column Name="DEPARTMENTID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DEPARTMENTNAME" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="MANAGERID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LOCATION" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="DEPARTMENT_PROJECT" Member="PROJECTs" ThisKey="DEPARTMENTID" OtherKey="DEPARTMENTID" Type="PROJECT" />
+      <Association Name="EMPLOYEE_DEPARTMENT" Member="EMPLOYEE" ThisKey="MANAGERID" OtherKey="EMPLOYEEID" Type="EMPLOYEE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PROJECTS" Member="PROJECTs">
+    <Type Name="PROJECT">
+      <Column Name="PROJECTID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PROJECTNAME" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="STARTDATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ENDDATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DEPARTMENTID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DEPARTMENT_PROJECT" Member="DEPARTMENT" ThisKey="DEPARTMENTID" OtherKey="DEPARTMENTID" Type="DEPARTMENT" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

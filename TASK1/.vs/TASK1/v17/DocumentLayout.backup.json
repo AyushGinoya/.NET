@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\TASK1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCF4ED9-AC86-4B82-9E14-2F4CD87781E9}|D:\\.NET\\TASK1|d:\\.net\\task1\\basic calculator2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCF4ED9-AC86-4B82-9E14-2F4CD87781E9}|D:\\.NET\\TASK1|solutionrelative:basic calculator2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCF4ED9-AC86-4B82-9E14-2F4CD87781E9}|D:\\.NET\\TASK1|d:\\.net\\task1\\basic calculator .aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCF4ED9-AC86-4B82-9E14-2F4CD87781E9}|D:\\.NET\\TASK1|solutionrelative:basic calculator .aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCF4ED9-AC86-4B82-9E14-2F4CD87781E9}|D:\\.NET\\TASK1|d:\\.net\\task1\\basic calculator .aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{CBCF4ED9-AC86-4B82-9E14-2F4CD87781E9}|D:\\.NET\\TASK1|solutionrelative:basic calculator .aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Basic Calculator2.aspx.cs",
+              "DocumentMoniker": "D:\\.NET\\TASK1\\Basic Calculator2.aspx.cs",
+              "RelativeDocumentMoniker": "Basic Calculator2.aspx.cs",
+              "ToolTip": "D:\\.NET\\TASK1\\Basic Calculator2.aspx.cs",
+              "RelativeToolTip": "Basic Calculator2.aspx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:10:34.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Basic Calculator .aspx.cs",
+              "DocumentMoniker": "D:\\.NET\\TASK1\\Basic Calculator .aspx.cs",
+              "RelativeDocumentMoniker": "Basic Calculator .aspx.cs",
+              "ToolTip": "D:\\.NET\\TASK1\\Basic Calculator .aspx.cs",
+              "RelativeToolTip": "Basic Calculator .aspx.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:56:28.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Basic Calculator .aspx",
+              "DocumentMoniker": "D:\\.NET\\TASK1\\Basic Calculator .aspx",
+              "RelativeDocumentMoniker": "Basic Calculator .aspx",
+              "ToolTip": "D:\\.NET\\TASK1\\Basic Calculator .aspx",
+              "RelativeToolTip": "Basic Calculator .aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-16T06:52:50.134Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

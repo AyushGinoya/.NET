@@ -1,0 +1,14 @@
+D:\.NET\Expressions\bin\Debug\net8.0\Expressions.exe
+D:\.NET\Expressions\bin\Debug\net8.0\Expressions.deps.json
+D:\.NET\Expressions\bin\Debug\net8.0\Expressions.runtimeconfig.json
+D:\.NET\Expressions\bin\Debug\net8.0\Expressions.dll
+D:\.NET\Expressions\bin\Debug\net8.0\Expressions.pdb
+D:\.NET\Expressions\obj\Debug\net8.0\Expressions.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\Expressions\obj\Debug\net8.0\Expressions.AssemblyInfoInputs.cache
+D:\.NET\Expressions\obj\Debug\net8.0\Expressions.AssemblyInfo.cs
+D:\.NET\Expressions\obj\Debug\net8.0\Expressions.csproj.CoreCompileInputs.cache
+D:\.NET\Expressions\obj\Debug\net8.0\Expressions.dll
+D:\.NET\Expressions\obj\Debug\net8.0\refint\Expressions.dll
+D:\.NET\Expressions\obj\Debug\net8.0\Expressions.pdb
+D:\.NET\Expressions\obj\Debug\net8.0\Expressions.genruntimeconfig.cache
+D:\.NET\Expressions\obj\Debug\net8.0\ref\Expressions.dll
