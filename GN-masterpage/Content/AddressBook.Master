@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AddressBook.master.cs" Inherits="GN_masterpage.Content.AddressBook" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h2>Address Book</h2>
+        </header>
+
+        <hr style="border: 1px solid black; margin: 30px 0;">
+
+
+
+        <main>
+            <asp:ContentPlaceHolder ID="cphMainContent" runat="server" />
+        </main>
+
+        <hr style="border: 1px solid black; margin: 30px 0;">
+
+        <footer>
+
+            <div style="margin-top: 20px;">
+                <p>&copy; 2024 Dharmsinh Desai University. All rights reserved.</p>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
