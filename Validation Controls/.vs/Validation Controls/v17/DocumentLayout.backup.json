@@ -3,22 +3,22 @@
   "WorkspaceRootPath": "D:\\.NET\\Validation Controls\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8867A32E-B5F0-46E2-98E6-4189BBFD8818}|Validation Controls.csproj|d:\\.net\\validation controls\\form.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8867A32E-B5F0-46E2-98E6-4189BBFD8818}|Validation Controls.csproj|solutionrelative:form.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8867A32E-B5F0-46E2-98E6-4189BBFD8818}|Validation Controls.csproj|d:\\.net\\validation controls\\form.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8867A32E-B5F0-46E2-98E6-4189BBFD8818}|Validation Controls.csproj|solutionrelative:form.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8867A32E-B5F0-46E2-98E6-4189BBFD8818}|Validation Controls.csproj|D:\\.NET\\Validation Controls\\form.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8867A32E-B5F0-46E2-98E6-4189BBFD8818}|Validation Controls.csproj|solutionrelative:form.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1181,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form.aspx.cs",
               "DocumentMoniker": "D:\\.NET\\Validation Controls\\Form.aspx.cs",
               "RelativeDocumentMoniker": "Form.aspx.cs",
               "ToolTip": "D:\\.NET\\Validation Controls\\Form.aspx.cs",
               "RelativeToolTip": "Form.aspx.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAASwB4AAABKAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA7wCkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T04:54:54.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form.aspx",
               "DocumentMoniker": "D:\\.NET\\Validation Controls\\Form.aspx",
               "RelativeDocumentMoniker": "Form.aspx",
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Form.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-27T04:16:03.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T04:16:03.575Z"
             }
           ]
         }

@@ -16,7 +16,6 @@ namespace Validation_Controls
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            // Collect form data
             string name = txtName.Text;
             string email = txtEmail.Text;
             string mobileNo = txtMobileNo.Text;
@@ -27,12 +26,10 @@ namespace Validation_Controls
             string state = ddlState.SelectedItem.Text;
             string city = ddlCity.SelectedItem.Text;
 
-            // Get selected certificates
             string certificates = string.Join(", ", cblCertificates.Items.Cast<ListItem>()
                                               .Where(i => i.Selected)
                                               .Select(i => i.Text));
 
-            // Get selected gender
             string gender = rblGender.SelectedItem != null ? rblGender.SelectedItem.Text : "Not Selected";
 
             string message = $"Name: {name}<br/>" +
