@@ -42,8 +42,7 @@
               "RelativeToolTip": "GN-masterpage\\AdminPanel\\City\\CityList.aspx.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:02:10.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T15:02:10.866Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "GN-masterpage\\AdminPanel\\City\\CityAddEdit.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-08T15:02:04.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T15:02:04.341Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "GN-masterpage\\AdminPanel\\City\\CityAddEdit.aspx.cs",
               "ToolTip": "F:\\Program\\.NET\\GN-masterpage\\AdminPanel\\City\\CityAddEdit.aspx.cs",
               "RelativeToolTip": "GN-masterpage\\AdminPanel\\City\\CityAddEdit.aspx.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAAF4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T15:02:09.154Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "GN-masterpage\\AdminPanel\\City\\CityList.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-08T15:02:05.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T15:02:05.775Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "GN-masterpage\\Content\\AddressBook.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-08T15:01:32.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T15:01:32.201Z"
             }
           ]
         }

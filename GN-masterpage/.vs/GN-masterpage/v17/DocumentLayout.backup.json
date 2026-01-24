@@ -63,8 +63,7 @@
               "RelativeToolTip": "AdminPanel\\State\\StateAddEdit.aspx.cs",
               "ViewState": "AgIAAJcAAAAAAAAAAAAAAJ0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T13:16:51.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:16:51.599Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "AdminPanel\\State\\StateAddEdit.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T13:16:21.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T13:16:21.043Z"
             }
           ]
         }
