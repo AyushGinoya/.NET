@@ -1,3 +1,13 @@
 AddressBook.mdf
 AddressBook_log.ldf
 AddressBook/
+
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
