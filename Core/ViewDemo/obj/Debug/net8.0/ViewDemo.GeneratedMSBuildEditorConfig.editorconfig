@@ -24,12 +24,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/Program/.NET/Core/ViewDemo/Views/Home/FillForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWxsRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Program/.NET/Core/ViewDemo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Program/.NET/Core/ViewDemo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Program/.NET/Core/ViewDemo/Views/Home/ShowData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93RGF0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/Program/.NET/Core/ViewDemo/Views/Shared/Error.cshtml]

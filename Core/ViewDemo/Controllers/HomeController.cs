@@ -23,6 +23,19 @@ namespace ViewDemo.Controllers
             return View();
         }
 
+        public IActionResult FillForm()
+        {
+            return View();
+        }
+
+
+        public IActionResult ShowData(User user)
+        {
+            ViewBag.Name = user.Name;
+            ViewBag.Email = user.Email;
+            ViewBag.Age = user.Age;
+            return View();
+        }
 
         public IActionResult Privacy()
         {

@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Form</title>
+</head>
+<body>
+
+    <h2>User Form</h2>
+
+    <form method="post" action="/Home/ShowData">
+        <div>
+            <label for="Name">Name</label><br />
+            <input type="text" id="Name" name="Name" />
+        </div>
+
+        <br />
+
+        <div>
+            <label for="Email">Email</label><br />
+            <input type="email" id="Email" name="Email" />
+        </div>
+
+        <br />
+
+        <div>
+            <label for="Age">Age</label><br />
+            <input type="number" id="Age" name="Age" />
+        </div>
+
+        <br />
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

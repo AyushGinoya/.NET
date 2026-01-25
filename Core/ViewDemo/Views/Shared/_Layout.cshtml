@@ -12,11 +12,12 @@
 </head>
 
 <body>
+
     <!-- ===== HEADER / NAVBAR ===== -->
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ViewDemo</a>
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">ViewDemo</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target=".navbar-collapse">
@@ -34,6 +35,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Home" asp-action="AboutUs">AboutUs</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="FillForm">Fill Form</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -41,9 +45,9 @@
     </header>
 
     <!-- ===== CAROUSEL ===== -->
-    <div class="container mt-2">
+    <div class="container mb-4">
         <div id="carouselExampleInterval"
-             class="carousel slide carousel-small mx-auto"
+             class="carousel slide carousel-custom mx-auto"
              data-bs-ride="carousel">
 
             <div class="carousel-inner">
@@ -75,7 +79,7 @@
     </div>
 
     <!-- ===== FOOTER ===== -->
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted mt-4">
         <div class="container">
             &copy; 2026 - ViewDemo -
             <a asp-controller="Home" asp-action="Privacy">Privacy</a>
@@ -88,5 +92,25 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
+
+
+<script>
+        /* Carousel fixed height */
+    .carousel-custom {
+        height: 500px;
+    }
+
+    .carousel-inner,
+    .carousel-item,
+    .carousel-img {
+        height: 500px;
+    }
+
+    .carousel-img {
+        object-fit: cover;
+    }
+
+</script>
