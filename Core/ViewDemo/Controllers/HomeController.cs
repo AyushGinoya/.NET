@@ -1,5 +1,7 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using ViewDemo.Models;
 
 namespace ViewDemo.Controllers
@@ -26,6 +28,18 @@ namespace ViewDemo.Controllers
         public IActionResult FillForm()
         {
             return View();
+        }
+
+        public IActionResult BasicInfo()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult ShowBasicData(User user)
+        {
+            //The HTML name attribute must exactly match the C# model property name (case-insensitive) for binding to work.
+            return View(user);
         }
 
 

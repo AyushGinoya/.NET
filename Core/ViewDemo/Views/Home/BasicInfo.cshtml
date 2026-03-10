@@ -1,0 +1,58 @@
+﻿@model ViewDemo.Models.User
+
+@{
+    List<String> Course = new List<String>();
+    Course.Add("IOT");
+    Course.Add("IT");
+    Course.Add("CE");
+    Course.Add("CHE");
+    Course.Add("BCA");
+    Course.Add("MAC");
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Basic Information</h3>
+
+            @using (Html.BeginForm("ShowBasicData", "Home"))
+            {
+                <div>
+                    @Html.Label("Name", "Enter Name", new { @class = "form-label" })
+                </div>
+                <div>
+                    @Html.TextBox("Name", "", new { @class = "form-control" })
+                </div>
+
+                <div>
+                    @Html.Label("Area", "Enter Area", new { @class = "form-label" })
+                </div>
+                <div>
+                    @Html.TextArea("Area", "", new { @class = "form-control" })
+                </div>
+
+                <div>
+                    @Html.Label("Gender", "Select Gender", new { @class = "form-label" })
+                </div>
+                <div>
+                    @Html.RadioButton("Gender", "Male", true, new { id = "male" }) Male
+                    @Html.RadioButton("Gender", "Female", false, new { id = "female" }) Female
+                    @Html.RadioButton("Gender", "Other", false, new { id = "other" }) Other
+                </div>
+
+                <div>
+                    @Html.Label("Course", "Select Course", new { @class = "form-label" })
+                </div>
+                <div>
+                    @Html.DropDownList("Course", new SelectList(Course), "--Select Course--")
+                </div>
+
+                <br />
+                <div>
+                    <input type="submit" value="Register" class="btn btn-success" />
+                    <input type="button" value="Clear" class="btn btn-info" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
