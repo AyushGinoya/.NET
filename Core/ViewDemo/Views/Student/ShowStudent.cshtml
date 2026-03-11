@@ -1,0 +1,47 @@
+﻿@model ViewDemo.Models.Student
+
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h4>✅ Registration Successful!</h4>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>@Html.DisplayNameFor(m => m.Name)</th>
+                            <td>@Html.DisplayFor(m => m.Name)</td>
+                        </tr>
+                        <tr>
+                            <th>@Html.DisplayNameFor(m => m.Email)</th>
+                            <td>@Html.DisplayFor(m => m.Email)</td>
+                        </tr>
+                        <tr>
+                            <th>@Html.DisplayNameFor(m => m.Age)</th>
+                            <td>@Html.DisplayFor(m => m.Age)</td>
+                        </tr>
+                        <tr>
+                            <th>@Html.DisplayNameFor(m => m.Gender)</th>
+                            <td>@Html.DisplayFor(m => m.Gender)</td>
+                        </tr>
+                        <tr>
+                            <th>@Html.DisplayNameFor(m => m.Course)</th>
+                            <td>@Html.DisplayFor(m => m.Course)</td>
+                        </tr>
+                    </table>
+
+                    <a href="/Student/Register" class="btn btn-primary">
+                        ← Register Another Student
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
