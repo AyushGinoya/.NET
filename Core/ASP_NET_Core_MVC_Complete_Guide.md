@@ -1870,3 +1870,276 @@ public IActionResult Login() { }
 | 18 | Partial View vs View Component? | Static display vs own logic/DI |
 | 19 | Program.cs structure? | Services then Middleware, builder.Build() divides them |
 | 20 | EF Core vs raw SQL? | ORM benefits, migrations, LINQ queries, tradeoffs |
+
+
+## 🔷 What is Scaffolding?
+
+Scaffolding in .NET Core is an **automatic code generation mechanism** that creates boilerplate code based on templates and existing models/database schemas. It dramatically reduces repetitive coding and enforces consistent patterns across a project.
+
+### Core Philosophy
+
+```
+Model / Schema / Template
+         ↓
+    Scaffolding Engine
+         ↓
+   Generated Code (Controllers, Views, DbContext, Entities, Pages)
+```
+
+### Why Scaffolding Matters
+
+| Without Scaffolding | With Scaffolding |
+|---|---|
+| Write CRUD manually (100–300 lines per entity) | Generate in seconds |
+| Risk of inconsistency across team | Uniform patterns enforced |
+| Manual DB-to-model mapping | Auto-generated entity classes |
+| Slow prototyping | Rapid MVP delivery |
+
+---
+
+## 🔷 Types of Scaffolding in .NET Core
+
+### 1. **EF Core Scaffolding** (Database-First)
+Reverse-engineers an existing database into C# Entity classes + DbContext.
+
+### 2. **MVC Scaffolding**
+Generates Controllers + Views (CRUD) from an existing Model class.
+
+### 3. **Razor Pages Scaffolding**
+Generates `.cshtml` + `.cshtml.cs` PageModel files for CRUD operations.
+
+### 4. **Identity Scaffolding**
+Generates overridable Identity UI pages (Login, Register, etc.).
+
+### 5. **API Controller Scaffolding**
+Generates REST API controllers with full CRUD from a Model + DbContext.
+
+### 6. **Minimal API Scaffolding** *(introduced .NET 7+)*
+Generates endpoint maps for minimal APIs.
+
+---
+
+## 🔷 Identity Scaffolding
+
+ASP.NET Core Identity UI ships as a Razor Class Library (RCL). Scaffolding lets you **override specific pages** without copying the entire library.
+
+### Scaffold All Identity Pages
+
+```bash
+dotnet aspnet-codegenerator identity \
+  -dc AppDbContext \
+  --files "Account.Login;Account.Register;Account.Logout"
+```
+
+### Common Pages to Override
+
+| Page Key | File Generated |
+|---|---|
+| `Account.Login` | Areas/Identity/Pages/Account/Login.cshtml |
+| `Account.Register` | Areas/Identity/Pages/Account/Register.cshtml |
+| `Account.Manage.Index` | Profile management page |
+| `Account.ForgotPassword` | Password reset flow |
+
+
+## 🔷 API Controller Scaffolding
+
+```bash
+dotnet aspnet-codegenerator controller \
+  -name ProductsApiController \
+  -m Product \
+  -dc AppDbContext \
+  --relativeFolderPath Controllers \
+  -api \                        ← This flag = no Views, pure REST API
+  --readWriteActions
+```
+
+---
+
+## 🔷 Custom Templates
+
+### Override Scaffolding Templates (T4-style)
+
+You can customize what scaffolding generates by providing your own templates.
+
+```
+YourProject/
+  Templates/
+    ControllerGenerator/
+      Controller.cshtml         ← Override controller template
+    ViewGenerator/
+      List.cshtml               ← Override list view template
+      Edit.cshtml
+```
+
+```bash
+# Use custom templates directory
+dotnet aspnet-codegenerator controller \
+  -name ProductsController \
+  -m Product \
+  -dc AppDbContext \
+  -t "Templates/ControllerGenerator"
+```
+
+## 🎯 Interview Questions & Model Answers
+
+---
+
+### Q1. What is scaffolding in .NET Core and when would you use it?
+
+**⭐ STAR Answer:**
+
+> **Situation:** "When I joined a project that needed to rapidly build an admin panel for 15 database tables within two weeks..."
+>
+> **Task:** "My task was to create CRUD interfaces for all entities without slowing down the team."
+>
+> **Action:** "I used `dotnet ef dbcontext scaffold` to reverse-engineer the existing SQL Server database into entity classes, then used `dotnet aspnet-codegenerator` to generate MVC controllers and Razor views for each entity. I scaffolded into partial classes so we could safely customize without worrying about overwrites."
+>
+> **Result:** "We completed the admin panel in 3 days instead of 2 weeks, and the generated code gave us a consistent, testable base."
+
+**Technical Definition to Include:**
+> "Scaffolding is a code generation tool that creates boilerplate CRUD code from templates, tied to a model class and DbContext. It supports MVC controllers with views, Razor Pages, API controllers, Identity UI, and EF Core entity generation from an existing database. It accelerates development by automating repetitive patterns while maintaining extensibility through partial classes."
+
+---
+
+### Q2. What is the difference between Code-First and Database-First, and how does scaffolding relate to each?
+
+**Model Answer:**
+
+| | Code-First | Database-First |
+|---|---|---|
+| **Starting point** | C# model classes | Existing SQL database |
+| **EF Tool used** | `dotnet ef migrations` | `dotnet ef dbcontext scaffold` |
+| **Scaffolding role** | Scaffold UI from models | Scaffold BOTH models AND UI |
+| **Best for** | Green-field projects | Legacy database integration |
+
+> "In Code-First, I define my domain model in C# and EF generates migrations to update the DB. In Database-First, I use `dotnet ef dbcontext scaffold` to reverse-engineer the DB into C# entity classes and a DbContext. Scaffolding in Database-First covers the model layer as well as the UI layer, whereas in Code-First, scaffolding only applies to the controller/view/page generation."
+
+---
+
+### Q3. How do you prevent scaffolding from overwriting your custom code?
+
+**Model Answer:**
+
+> "There are three main strategies I use:
+>
+> **1. Partial Classes** — EF Core generates entities as `partial class`. I create a separate file like `Product.Extended.cs` with the same partial class name. My custom properties, methods, and attributes live there and are never touched by re-scaffolding.
+>
+> **2. Inheritance / Decorators** — For controllers, I create a base controller with custom logic and inherit from the scaffolded controller, or I add custom actions separately.
+>
+> **3. Template Customization** — I override the scaffolding templates themselves so that every future scaffold run produces code that already follows our project conventions, reducing the need to post-edit generated files."
+
+```csharp
+// Generated (don't edit):
+public partial class Product { public int ProductId { get; set; } }
+
+// Your custom file (safe from overwrites):
+public partial class Product
+{
+    public string FormattedPrice => $"${Price:F2}";
+    public bool IsInStock => StockQuantity > 0;
+}
+```
+
+---
+
+### Q4. Walk me through scaffolding a complete REST API from an existing database.
+
+**Model Answer (Step-by-Step):**
+
+```bash
+# Step 1: Install tools
+dotnet tool install --global dotnet-ef
+dotnet tool install --global dotnet-aspnet-codegenerator
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+# Step 2: Scaffold entities from existing DB
+dotnet ef dbcontext scaffold \
+  "Server=.;Database=ShopDB;Trusted_Connection=True;" \
+  Microsoft.EntityFrameworkCore.SqlServer \
+  --output-dir Models \
+  --context-dir Data \
+  --context ShopDbContext \
+  --no-onconfiguring \
+  --force
+
+# Step 3: Register DbContext in Program.cs (do this manually)
+# builder.Services.AddDbContext<ShopDbContext>(...)
+
+# Step 4: Scaffold API controllers for each entity
+dotnet aspnet-codegenerator controller \
+  -name ProductsApiController \
+  -m Product \
+  -dc ShopDbContext \
+  -api --relativeFolderPath Controllers
+
+# Step 5: Test with Swagger (already included in .NET 6+ templates)
+dotnet run
+# Navigate to https://localhost:5001/swagger
+```
+
+> "I always use `--no-onconfiguring` to keep connection strings out of generated files for security, and I immediately move the connection string to `appsettings.json` + User Secrets for local development."
+
+---
+
+### Q5. What are the limitations of scaffolding, and how do you address them in production projects?
+
+**Model Answer:**
+
+> "Scaffolding is excellent for bootstrapping but has real limitations in production:
+>
+> **1. No business logic** — Scaffolded controllers talk directly to DbContext. In production, I introduce a Service/Repository layer and refactor generated controllers to call services instead of the context directly.
+>
+> **2. No DTOs** — Generated API controllers return entity classes directly, which exposes the DB schema and risks over-posting. I add AutoMapper profiles and create request/response DTO classes.
+>
+> **3. No pagination/filtering** — The generated `Index` action returns all records. I extend it with IQueryable filtering, `Skip/Take` pagination, and sorting.
+>
+> **4. No authentication/authorization** — I add `[Authorize]` attributes, role-based policies, and JWT validation post-scaffolding.
+>
+> **5. Re-scaffold risk** — Any re-scaffold overwrites manual changes. The strategy is partial classes, custom templates, and treating generated files as a starting point, not a final product."
+
+---
+
+## ⚡ Quick Reference Cheat Sheet
+
+```bash
+# ─────────────────────────────────────────
+# EF CORE — DATABASE FIRST SCAFFOLDING
+# ─────────────────────────────────────────
+dotnet ef dbcontext scaffold "<ConnectionString>" Microsoft.EntityFrameworkCore.SqlServer \
+  -o Models -c AppDbContext --context-dir Data \
+  --no-onconfiguring --force
+
+# Specific tables only
+dotnet ef dbcontext scaffold "..." SqlServer --table Products --table Orders
+
+# ─────────────────────────────────────────
+# MVC CONTROLLER + VIEWS (CRUD)
+# ─────────────────────────────────────────
+dotnet aspnet-codegenerator controller \
+  -name ProductsController -m Product -dc AppDbContext \
+  --relativeFolderPath Controllers --useDefaultLayout -udl
+
+# ─────────────────────────────────────────
+# API CONTROLLER (no views)
+# ─────────────────────────────────────────
+dotnet aspnet-codegenerator controller \
+  -name ProductsApiController -m Product -dc AppDbContext \
+  -api --relativeFolderPath Controllers
+
+# ─────────────────────────────────────────
+# RAZOR PAGES
+# ─────────────────────────────────────────
+dotnet aspnet-codegenerator razorpage \
+  -m Product -dc AppDbContext -udl \
+  --relativeFolderPath Pages/Products
+
+# ─────────────────────────────────────────
+# IDENTITY SCAFFOLDING
+# ─────────────────────────────────────────
+dotnet aspnet-codegenerator identity \
+  -dc AppDbContext \
+  --files "Account.Login;Account.Register;Account.Logout"
+```
+
+---
